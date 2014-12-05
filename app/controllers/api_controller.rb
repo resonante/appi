@@ -16,8 +16,8 @@ class ApiController < ApplicationController
 		    device: registration.gcm_registration_id,
 		    payload: { message: 'Hello World' },
 		    collapse_key: 'Hi')
-		render nothing: true
 		end
+		render nothing: true
 	end	
 
 	def editions
