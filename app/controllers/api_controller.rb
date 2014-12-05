@@ -27,7 +27,7 @@ class ApiController < ApplicationController
 							thumb: "images/thumb/cover.png",
 							date: "11 Noviembre 2014"
 						},{ 
-							title: "¿Qué es en realidad la magia?",
+							title: "¿Qué es la magia?",
 							body: "Pienso que la magia está presente en la vida diaria...",
 							thumb: "images/thumb/cover.png",
 							date: "11 Noviembre 2014"
