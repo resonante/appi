@@ -21,8 +21,8 @@ production:
   adapter: postgresql
   encoding: unicode
   pool: 5
-  database: d26kpg6blcijtj
-  username: hqtdwxolrpiucb
-  password: atzrLWKX20qwKyY1n6NdH4yxtx
-  host: ec2-79-125-26-174.eu-west-1.compute.amazonaws.com
+  database: der1a3nhv8g39t
+  username: bhdrlcymgslcxe
+  password: TYv_0Cc3IFZEU6LGCSXp41XXPD
+  host: ec2-54-228-227-217.eu-west-1.compute.amazonaws.com
   port: 5432
