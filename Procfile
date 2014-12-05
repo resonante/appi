@@ -1,1 +1,1 @@
-push: bundle exec push $RACK_ENV -f
+push: bundle exec push $RAILS_ENV -f
