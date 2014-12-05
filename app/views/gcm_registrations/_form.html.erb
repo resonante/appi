@@ -1,0 +1,25 @@
+<%= form_for(@gcm_registration) do |f| %>
+  <% if @gcm_registration.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@gcm_registration.errors.count, "error") %> prohibited this gcm_registration from being saved:</h2>
+
+      <ul>
+      <% @gcm_registration.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :user_id %><br>
+    <%= f.number_field :user_id %>
+  </div>
+  <div class="field">
+    <%= f.label :gcm_registration_id %><br>
+    <%= f.text_field :gcm_registration_id %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

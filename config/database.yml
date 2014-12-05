@@ -1,0 +1,28 @@
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: appi-dev
+  pool: 5
+  host: localhost
+  username: resonante
+  password: 
+ 
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: appi-test
+  pool: 5
+  host: localhost
+  username: resonante
+  password: 
+ 
+production:
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  database: d26kpg6blcijtj
+  username: hqtdwxolrpiucb
+  password: atzrLWKX20qwKyY1n6NdH4yxtx
+  host: ec2-79-125-26-174.eu-west-1.compute.amazonaws.com
+  port: 5432
