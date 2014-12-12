@@ -7,15 +7,14 @@ class ApiController < ApplicationController
 		render nothing: true
 	end	
 
-	def push_noti
+	def gcm_push
 		#Push::ConfigurationGcm.create(app: 'app_name', connections: 2, enabled: true, key: '<api key here>')
 		GcmRegistration.all.each do |registration|
-			puts registration.gcm_registration_id
 		Push::MessageGcm.create(
 		    app: 'blindApp',
 		    device: registration.gcm_registration_id,
-		    payload: { message: 'Hello World' },
-		    collapse_key: 'Hi')
+		    payload: { message: 'Notificación BLIND' },
+		    collapse_key: 'MSG')
 		end
 		render nothing: true
 	end	

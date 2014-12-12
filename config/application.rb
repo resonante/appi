@@ -26,6 +26,10 @@ module Appi
         resource '*', :headers => :any, :methods => [:get, :post, :options]
       end
     end
+
+    config.to_prepare do
+      Devise::SessionsController.layout "sessions" 
+    end
         
   end
 end

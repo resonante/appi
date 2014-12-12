@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :posts
+
   resources :gcm_registrations
 
   devise_for :users
@@ -13,7 +15,7 @@ Rails.application.routes.draw do
   get 'api/news' => 'api#news_feed'
   get 'api/zones' => 'api#zones'
   get 'api/editions' => 'api#editions'
-  get 'api/push' => 'api#push_noti'
+  get 'api/push' => 'api#gcm_push'
   post 'api/save_gcm_registration' => 'api#save_gcm_registration'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
