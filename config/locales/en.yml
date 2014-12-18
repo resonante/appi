@@ -5,3 +5,7 @@ en:
     password: "Password"
     remember_me: "Remember me"
     session: "Sign in"
+    nav-title: "Users"
+  dashboard: "Dashboard"
+  posts: "Posts"
+  galleries: "Galleries"

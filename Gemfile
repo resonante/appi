@@ -48,3 +48,5 @@ gem 'push-core'
 gem 'push-gcm'
 
 gem 'push-apns'
+
+gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"

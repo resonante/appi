@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <%= csrf_meta_tags %>
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>appi</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/bootstraplumen.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/assets/application.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="/assets/application.js"></script>
+
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="/posts">Posts</a></li>
+                <li><a href="/galleries">Gallery</a></li>
+              </ul>
+            </li>
+            <li role="presentation">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">appi</h3>
+      </div>
+
+      <%= yield %>
+
+      <footer class="footer">
+        <p>&copy; Appi 2014</p>
+      </footer>
+
+    </div> <!-- /container -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    
+    <script src="/assets/bootstrap.js"></script>
+  </body>
+</html>

@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  resources :photos
+
+  resources :settings
+
+  resources :galleries
+
   resources :posts
 
   resources :gcm_registrations
@@ -23,7 +29,7 @@ Rails.application.routes.draw do
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
-
+  resources :users
   # Example resource route with options:
   #   resources :products do
   #     member do
