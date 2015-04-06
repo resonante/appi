@@ -1,0 +1,125 @@
+es:
+  dashboard:
+   title: "Escritorio"
+  users:
+   title: "Usuarios"
+   email: "Correo Electrónico"
+   password: "Contraseña"
+   remember_me: "Recordarme"
+   session: "Iniciar Sesión"
+   logout: "Cerrar Sesión"
+   new: "Nuevo Usuario"
+   edit: "Editar Usuario"
+   success_create: "Usuario ha sido creada con éxito."
+   success_update: "Usuario ha sido actualizado con éxito."
+   success_delete: "Usuario ha sido eliminado con éxito."
+  posts:
+   title: "Posts"
+   new: "Nuevo Post"
+   edit: "Editar Post"
+   success_create: "Post ha sido creada con éxito."
+   success_update: "Post ha sido actualizada con éxito."
+   success_delete: "Post ha sido eliminada con éxito."
+  galleries:
+   title: "Galerías"
+   new: "Nueva Galería"
+   edit: "Editar Galería"
+   info: "Info de la galería"
+   success_create: "Galería ha sido creado con éxito."
+   success_update: "Galería ha sido actualizado con éxito."
+   success_delete: "Galería ha sido eliminada con éxito."
+  messages:
+    title: "Mensajes"
+    new: "Escribir"
+    inbox: "Bandeja"
+    sent: "Enviados"
+    trash: "Papelera"
+  actions:
+   title: "Acciones"
+   save: "Guardar"
+   edit: "Editar"
+   back: "Volver"
+   show: "Ver"
+   sure: "¿Estás Seguro?"
+   pdf_export: "Exportar a PDF"
+   excel_export: "Exportar a MS Excel"
+   add_item: "Nuevo Item"
+   settings: "Configuraciones"
+  fields:
+   id: "Id"
+   name: "Nombre"
+   title: "Título"
+   password: "Contraseña"
+   email: "Correo Electrónico"
+   role: "Rol"
+   address: "Dirección"
+   phone: "Teléfono"
+   mobile: "Teléfono Móvil"
+   state: "Estado"
+   town: "Municipio"
+   date: "Fecha"
+   description: "Descripción"
+   order_number: "Número de Orden"
+   issue_date: "Emisión"
+   begin_date: "Inicio"
+   due_date: "Entrega"
+   customer_select: "Selecciona un Cliente"
+   work_select: "Selecciona una Obra"
+   works_select: "Selecciona Obras"
+   supplier_select: "Selecciona un Proveedor"
+   date: "Fecha"
+   work: "Obra"
+   customer: "Cliente"
+  date:
+    abbr_day_names:
+    - dom
+    - lun
+    - mar
+    - mié
+    - jue
+    - vie
+    - sáb
+    abbr_month_names:
+    - 
+    - ene
+    - feb
+    - mar
+    - abr
+    - may
+    - jun
+    - jul
+    - ago
+    - sep
+    - oct
+    - nov
+    - dic
+    day_names:
+    - domingo
+    - lunes
+    - martes
+    - miércoles
+    - jueves
+    - viernes
+    - sábado
+    formats:
+      default: "%d/%m/%Y"
+      long: "%d de %B de %Y"
+      short: "%d de %b"
+    month_names:
+    - 
+    - enero
+    - febrero
+    - marzo
+    - abril
+    - mayo
+    - junio
+    - julio
+    - agosto
+    - septiembre
+    - octubre
+    - noviembre
+    - diciembre
+    order:
+    - :day
+    - :month
+    - :year   
